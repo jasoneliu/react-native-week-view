@@ -641,7 +641,7 @@ export default class WeekView extends Component {
             onMonthPress={onMonthPress}
             width={timeLabelsWidth}
           />
-          <VirtualizedList
+          {/* <VirtualizedList
             horizontal
             inverted={horizontalInverted}
             showsHorizontalScrollIndicator={false}
@@ -677,7 +677,7 @@ export default class WeekView extends Component {
                 />
               );
             }}
-          />
+          /> */}
         </View>
         {isRefreshing && RefreshComponent && (
           <RefreshComponent
