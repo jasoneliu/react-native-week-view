@@ -9,9 +9,7 @@ const computeWidthByLane = (overlap, dayWidth) =>
   dayWidth / (overlap.nLanes || 1);
 
 const computeHorizontalPadding = (overlap, dayWidth) => {
-  const widthByLane = computeWidthByLane(overlap, dayWidth);
-  const paddingByLane = EVENT_HORIZONTAL_PADDING / 2;
-  return widthByLane * paddingByLane;
+  return 4;
 };
 
 const computeStackOffset = (overlap, dayWidth) => {
