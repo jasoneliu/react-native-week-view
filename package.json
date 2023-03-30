@@ -1,17 +1,17 @@
 {
-  "name": "react-native-week-view",
+  "name": "@jasoneliu/react-native-week-view",
   "version": "0.28.1",
   "description": "Week View Calendar for React Native",
   "main": "index.js",
   "types": "index.d.ts",
-  "author": "Hoang Nguyen (https://github.com/hoangnm)",
+  "author": "Jason Liu (https://github.com/jasoneliu)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoangnm/react-native-week-view.git"
+    "url": "https://github.com/jasoneliu/react-native-week-view.git"
   },
   "bugs": {
-    "url": "https://github.com/hoangnm/react-native-week-view/issues"
+    "url": "https://github.com/jasoneliu/react-native-week-view/issues"
   },
   "files": [
     "src/",
@@ -27,7 +27,7 @@
     "weekview",
     "calendar"
   ],
-  "homepage": "https://github.com/hoangnm/react-native-week-view#readme",
+  "homepage": "https://github.com/jasoneliu/react-native-week-view#readme",
   "scripts": {
     "lint": "eslint index.* src",
     "test": "jest"
