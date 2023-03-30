@@ -1,6 +1,6 @@
 {
   "name": "@jasoneliu/react-native-week-view",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Week View Calendar for React Native",
   "main": "index.js",
   "types": "index.d.ts",
@@ -70,8 +70,8 @@
     "typescript": "^4.8.3"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-native": "^0.60.0",
+    "react": "*",
+    "react-native": "*",
     "react-native-gesture-handler": "^2.3.2",
     "react-native-reanimated": "^2.4.1"
   },
