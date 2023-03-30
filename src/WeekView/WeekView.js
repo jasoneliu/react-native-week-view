@@ -107,9 +107,9 @@ export default class WeekView extends Component {
     requestAnimationFrame(() => {
       this.scrollToVerticalStart();
     });
-    this.eventsGridScrollX.addListener((position) => {
-      this.header.scrollToOffset({ offset: position.value, animated: false });
-    });
+    // this.eventsGridScrollX.addListener((position) => {
+    //   this.header.scrollToOffset({ offset: position.value, animated: false });
+    // });
 
     this.windowListener = Dimensions.addEventListener(
       'change',
@@ -519,9 +519,9 @@ export default class WeekView extends Component {
     this.verticalAgenda = ref;
   };
 
-  headerRef = (ref) => {
-    this.header = ref;
-  };
+  // headerRef = (ref) => {
+  //   this.header = ref;
+  // };
 
   bucketEventsByDate = memoizeOne(bucketEventsByDate);
 
@@ -632,7 +632,7 @@ export default class WeekView extends Component {
 
     return (
       <GestureHandlerRootView style={styles.container}>
-        <View style={styles.headerContainer}>
+        {/* <View style={styles.headerContainer}>
           <Title
             showTitle={showTitle}
             style={headerStyle}
@@ -641,7 +641,7 @@ export default class WeekView extends Component {
             onMonthPress={onMonthPress}
             width={timeLabelsWidth}
           />
-          {/* <VirtualizedList
+          <VirtualizedList
             horizontal
             inverted={horizontalInverted}
             showsHorizontalScrollIndicator={false}
@@ -677,8 +677,8 @@ export default class WeekView extends Component {
                 />
               );
             }}
-          /> */}
-        </View>
+          />
+        </View> */}
         {isRefreshing && RefreshComponent && (
           <RefreshComponent
             style={[
